@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
+body{
+    background-color: rgb(112, 209, 233);
+}
+button{
+    outline: none;
+    padding: 5px 12px;
+    border: none;
+    background-color: cadetblue;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
+}
+input{
+    outline: none;
+    background-color: transparent;
+}
+
+
+.center {
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 3;
+}
+
+.box h2{
+    width: 70px;
+    height: 70px;
+    /* padding: 5px 10px; */
+    margin: 0 auto;
+    background-color: rgb(70, 67, 226);
+    border-radius: 5px;
+    
+}
+.get_boxNumber {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.get_boxNumber input {
+    border: none;
+    border-bottom: 2px solid blueviolet;
+    padding: 10px 30px;
+    
+}
+
+.get_boxNumber button {
+    margin-top: 30px;
+}
+
+/* box */
